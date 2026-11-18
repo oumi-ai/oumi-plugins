@@ -14,4 +14,4 @@ Open an issue with the agent you used (Claude Code, Codex, or another client), i
 4. Run `python3 scripts/check_plugins.py`. If you have Claude Code, also run `claude plugin validate .` and `claude plugin validate ./plugins/oumi-platform`.
 5. Open a pull request. A maintainer reviews it, and `main` accepts changes only through reviewed pull requests that pass the checks.
 
-By contributing, you agree that your contributions are licensed under the [Apache 2.0 license](LICENSE). Please follow our [code of conduct](https://github.com/oumi-ai/oumi/blob/main/CODE_OF_CONDUCT.md).
+By contributing, you agree that your contributions are licensed under the [Apache 2.0 license](LICENSE). Please follow our [code of conduct](CODE_OF_CONDUCT.md).

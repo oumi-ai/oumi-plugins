@@ -1,5 +1,8 @@
 blank_issues_enabled: true
 contact_links:
+  - name: Questions
+    url: https://discord.gg/oumi
+    about: Questions and community discussions
   - name: Report a security vulnerability
     url: https://github.com/oumi-ai/oumi-plugins/security/advisories/new
     about: Please report security issues privately.

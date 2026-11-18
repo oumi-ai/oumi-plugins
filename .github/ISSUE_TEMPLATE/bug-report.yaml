@@ -1,0 +1,49 @@
+name: Bug Report
+description: The plugin doesn't install, connect, or behave as expected
+title: "[Bug]"
+labels: ["bug", "triage"]
+type: "Bug"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report! Don't include tokens, passwords, or private data.
+  - type: dropdown
+    id: agent
+    attributes:
+      label: Agent
+      description: Which agent or app were you using?
+      options:
+        - Claude Code
+        - Codex
+        - Claude app (custom connector)
+        - ChatGPT (custom connector)
+        - Other MCP client
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Agent version
+      description: For example, the output of `claude --version` or `codex --version`.
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What you asked the agent to do, what happened, and what you expected.
+      placeholder: Detailed description of the bug...
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction-steps
+    attributes:
+      label: Steps to reproduce the bug
+      description: Include the install commands you ran and any error messages.
+      placeholder: |
+        1.
+        2.
+        3.
+    validations:
+      required: true

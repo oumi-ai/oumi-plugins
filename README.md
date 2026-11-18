@@ -1,3 +1,11 @@
+![Oumi Logo](https://github.com/oumi-ai/oumi/raw/main/docs/_static/logo/header_readme.svg)
+
+[![Documentation](https://img.shields.io/badge/Documentation-oumi-blue.svg)](https://docs.oumi.ai)
+[![Discord](https://img.shields.io/discord/1286348126797430814?label=Discord)](https://discord.gg/oumi)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![Checks](https://github.com/oumi-ai/oumi-plugins/actions/workflows/checks.yml/badge.svg?branch=main)](https://github.com/oumi-ai/oumi-plugins/actions/workflows/checks.yml)
+[![About](https://img.shields.io/badge/About-oumi-blue.svg)](https://oumi.ai)
+
 # Oumi plugins
 
 Official plugins that connect AI agents to the [Oumi platform](https://platform.oumi.ai).
