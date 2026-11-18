@@ -1,0 +1,21 @@
+{
+  "name": "oumi-platform",
+  "version": "1.0.0",
+  "description": "Work in your Oumi projects as the signed-in user: inspect resources, prepare datasets, and run training, evaluation, and deployment jobs you approve.",
+  "author": {
+    "name": "Oumi Team",
+    "url": "https://oumi.ai"
+  },
+  "homepage": "https://platform.oumi.ai",
+  "repository": "https://github.com/oumi-ai/oumi-plugins",
+  "license": "Apache-2.0",
+  "keywords": [
+    "oumi",
+    "mcp",
+    "machine-learning",
+    "evaluation",
+    "training"
+  ],
+  "icon": "./assets/icon.svg",
+  "privacyPolicyUrl": "https://oumi.ai/privacy-policy"
+}

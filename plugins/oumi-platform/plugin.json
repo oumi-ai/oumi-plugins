@@ -1,0 +1,35 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "oumi-platform",
+  "version": "1.0.0",
+  "description": "Work in your Oumi projects as the signed-in user: inspect resources, prepare datasets, and run training, evaluation, and deployment jobs you approve.",
+  "author": {
+    "name": "Oumi Team",
+    "url": "https://oumi.ai"
+  },
+  "homepage": "https://platform.oumi.ai",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Oumi Platform",
+        "shortDescription": "Manage Oumi workflows",
+        "longDescription": "Connect your Oumi account to inspect projects, datasets, models, evaluations, deployments, and operations; upload and shape datasets; set up evaluators and training recipes; and run training, evaluation, deployment, and synthesis jobs you explicitly approve, all with your existing Oumi permissions.",
+        "developerName": "Oumi Team",
+        "category": "Developer Tools",
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
+        "defaultPrompt": [
+          "Summarize the datasets in my Oumi project.",
+          "Show the recent evaluations in my project and compare their scores.",
+          "Fine-tune a model on one of my datasets and track the training operation."
+        ],
+        "privacyPolicyURL": "https://oumi.ai/privacy-policy",
+        "termsOfServiceURL": "https://oumi.ai/terms-of-service"
+      }
+    }
+  },
+  "repository": "https://github.com/oumi-ai/oumi-plugins",
+  "license": "Apache-2.0"
+}

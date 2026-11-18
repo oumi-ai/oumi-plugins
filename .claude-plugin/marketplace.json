@@ -1,0 +1,17 @@
+{
+  "name": "oumi",
+  "description": "Official Oumi plugins",
+  "owner": {
+    "name": "Oumi Team",
+    "url": "https://oumi.ai"
+  },
+  "plugins": [
+    {
+      "name": "oumi-platform",
+      "source": "./plugins/oumi-platform",
+      "description": "Work in your Oumi projects as the signed-in user: inspect resources, prepare datasets, and run training, evaluation, and deployment jobs you approve.",
+      "version": "1.0.0",
+      "category": "development"
+    }
+  ]
+}

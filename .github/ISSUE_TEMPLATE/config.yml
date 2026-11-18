@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Report a security vulnerability
+    url: https://github.com/oumi-ai/oumi-plugins/security/advisories/new
+    about: Please report security issues privately.
+  - name: Oumi documentation
+    url: https://docs.oumi.ai
+    about: Platform documentation.
