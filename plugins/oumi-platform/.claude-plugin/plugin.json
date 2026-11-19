@@ -1,6 +1,6 @@
 {
   "name": "oumi-platform",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Work in your Oumi projects as the signed-in user: inspect resources, prepare datasets, and run training, evaluation, and deployment jobs you approve.",
   "author": {
     "name": "Oumi Team",

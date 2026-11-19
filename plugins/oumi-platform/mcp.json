@@ -3,23 +3,7 @@
   "mcpServers": {
     "oumi-platform": {
       "type": "streamable-http",
-      "url": "https://api.oumi.ai/mcp",
-      "extensions": {
-        "com.openai": {
-          "auth": {
-            "type": "oauth",
-            "client": {
-              "mode": "dcr"
-            },
-            "baseScopes": [
-              "openid",
-              "email",
-              "profile"
-            ],
-            "oidcEnabled": true
-          }
-        }
-      }
+      "url": "https://api.oumi.ai/mcp"
     }
   }
 }

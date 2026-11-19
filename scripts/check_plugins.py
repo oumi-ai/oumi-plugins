@@ -10,6 +10,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 SERVER_URL = "https://api.oumi.ai/mcp"
+# Codex rejects a server entry with any other field and skips the server.
+SERVER_FIELDS = {"type", "url", "headers"}
 
 
 def load(path: Path) -> dict:
@@ -62,6 +64,10 @@ def main() -> int:
             urls = {server.get("url") for server in servers.values()}
             if urls != {SERVER_URL}:
                 problems.append(f"{name}/{config}: server URL must be {SERVER_URL}, found {sorted(map(str, urls))}")
+            for server_name, server in servers.items():
+                extra = sorted(server.keys() - SERVER_FIELDS)
+                if extra:
+                    problems.append(f"{name}/{config}: server '{server_name}' has fields Codex rejects: {extra}")
 
     if problems:
         print("\n".join(problems))
