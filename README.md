@@ -25,14 +25,20 @@ claude plugin marketplace add oumi-ai/oumi-plugins
 claude plugin install oumi-platform@oumi
 ```
 
-Start a session and ask Claude to list your Oumi organizations. Claude Code opens a browser window for you to sign in to Oumi the first time.
+Start a new session, run `/mcp`, select **oumi-platform**, and choose **Authenticate** (in the Claude desktop app, click **Reconnect**) to sign in to Oumi in your browser. The Oumi tools load after you sign in. Then ask Claude to list your Oumi organizations.
+
+To update the plugin later, run `claude plugin marketplace update oumi` and `claude plugin update oumi-platform@oumi`, then start a new session.
 
 ### Codex
+
+Install the [Codex CLI](https://github.com/openai/codex) first. These steps were tested with Codex CLI 0.167.1.
 
 ```bash
 codex plugin marketplace add oumi-ai/oumi-plugins
 codex plugin add oumi-platform@oumi
 ```
+
+Run `codex plugin list` and check that `oumi-platform@oumi` shows as `installed, enabled`. Start a new session, and sign in to Oumi when Codex asks. If Codex already has a signed-in Oumi connection, it uses that connection and skips the sign-in.
 
 ### Claude and ChatGPT apps
 
