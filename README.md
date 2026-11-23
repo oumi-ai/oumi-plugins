@@ -25,7 +25,7 @@ claude plugin marketplace add oumi-ai/oumi-plugins
 claude plugin install oumi-platform@oumi
 ```
 
-Start a new session, run `/mcp`, select **oumi-platform**, and choose **Authenticate** to sign in to Oumi in your browser. The Oumi tools load after you sign in. Then ask Claude to list your Oumi organizations.
+Start a new session, run `/mcp`, select **oumi-platform**, and choose **Authenticate** (in the Claude desktop app, click **Reconnect**) to sign in to Oumi in your browser. The Oumi tools load after you sign in. Then ask Claude to list your Oumi organizations.
 
 To update the plugin later, run `claude plugin marketplace update oumi` and `claude plugin update oumi-platform@oumi`, then start a new session.
 
