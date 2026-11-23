@@ -31,10 +31,14 @@ To update the plugin later, run `claude plugin marketplace update oumi` and `cla
 
 ### Codex
 
+Install the [Codex CLI](https://github.com/openai/codex) first. These steps were tested with Codex CLI 0.167.1.
+
 ```bash
 codex plugin marketplace add oumi-ai/oumi-plugins
 codex plugin add oumi-platform@oumi
 ```
+
+Run `codex plugin list` and check that `oumi-platform@oumi` shows as `installed, enabled`. Start a new session, and sign in to Oumi when Codex asks. If Codex already has a signed-in Oumi connection, it uses that connection and skips the sign-in.
 
 ### Claude and ChatGPT apps
 
