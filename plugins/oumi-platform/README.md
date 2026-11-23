@@ -11,7 +11,7 @@ Connects your agent to the Oumi MCP server at `https://api.oumi.ai/mcp`, so it c
 
 ## Sign-in and permissions
 
-The first time the agent uses a tool, it asks you to sign in to Oumi in your browser. Every call runs with your Oumi account's permissions, so the agent sees only what you can see. Jobs that cost money use your organization's Oumi billing.
+You sign in to Oumi in your browser once per agent. In Claude Code, run `/mcp`, select **oumi-platform**, and choose **Authenticate**; the Oumi tools load after you sign in. Other agents ask you to sign in the first time they use a tool. Every call runs with your Oumi account's permissions, so the agent sees only what you can see. Jobs that cost money use your organization's Oumi billing.
 
 ## Install
 
